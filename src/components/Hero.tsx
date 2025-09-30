@@ -22,10 +22,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
       <div className="container relative z-10 mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-            Smarter Workflows for{" "}
-            <span className="bg-gradient-hero bg-clip-text text-transparent">
-              Veterinary Practices
-            </span>
+            Smarter Workflows for Veterinary Practices
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto font-sans">
@@ -39,7 +36,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
               onClick={onCTAClick}
               className="group"
             >
-              Join the Beta Program
+              Join the Margin Optimization Beta
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
