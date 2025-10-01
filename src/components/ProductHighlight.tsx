@@ -63,7 +63,7 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
             Automated Margin Optimization
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Our first product helps you automatically track and optimize margins across services, inventory, and operations—giving you insights to run smarter, leaner, and more profitable practices.
+            Our first product helps you automatically track and optimize margins across your products and services—giving you insights to run smarter, leaner, and more profitable practices.
           </p>
         </div>
 
