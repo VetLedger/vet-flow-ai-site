@@ -10,76 +10,55 @@ export const VetLedgerLogo = ({ className = "w-10 h-10" }: VetLedgerLogoProps) =
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      {/* Book/Ledger base */}
-      <rect
-        x="20"
-        y="25"
-        width="60"
-        height="50"
-        rx="4"
-        fill="currentColor"
-        opacity="0.9"
+      {/* Rounded square frame */}
+      <path
+        d="M 15 25 
+           L 15 25
+           Q 15 15, 25 15
+           L 75 15
+           Q 85 15, 85 25
+           L 85 75
+           Q 85 85, 75 85
+           L 25 85
+           Q 15 85, 15 75
+           Z"
+        stroke="currentColor"
+        strokeWidth="12"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       
-      {/* Book spine detail */}
-      <rect
-        x="20"
-        y="25"
-        width="8"
-        height="50"
-        rx="4"
-        fill="currentColor"
-        opacity="0.7"
-      />
-      
-      {/* Veterinary cross */}
-      <g transform="translate(50, 50)">
-        {/* Vertical bar of cross */}
+      {/* Medical cross */}
+      <g transform="translate(35, 35)">
+        {/* Vertical bar */}
         <rect
-          x="-3"
-          y="-15"
-          width="6"
-          height="30"
+          x="-4"
+          y="-12"
+          width="8"
+          height="24"
           rx="2"
-          fill="white"
+          fill="currentColor"
         />
-        {/* Horizontal bar of cross */}
+        {/* Horizontal bar */}
         <rect
           x="-12"
-          y="-3"
+          y="-4"
           width="24"
-          height="6"
+          height="8"
           rx="2"
-          fill="white"
-        />
-        {/* Small heart accent */}
-        <circle
-          cx="0"
-          cy="-8"
-          r="2"
-          fill="white"
-          opacity="0.8"
+          fill="currentColor"
         />
       </g>
       
-      {/* Ledger lines accent */}
-      <line
-        x1="32"
-        y1="35"
-        x2="42"
-        y2="35"
-        stroke="white"
-        strokeWidth="1.5"
-        opacity="0.6"
-      />
-      <line
-        x1="32"
-        y1="42"
-        x2="42"
-        y2="42"
-        stroke="white"
-        strokeWidth="1.5"
-        opacity="0.6"
+      {/* Checkmark */}
+      <path
+        d="M 32 52 L 45 68 L 78 28"
+        stroke="currentColor"
+        strokeWidth="14"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
