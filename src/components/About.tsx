@@ -38,13 +38,13 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className={`space-y-6 ${isVisible ? 'animate-slide-in-left' : 'opacity-0'}`}>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We believe veterinary practices deserve better tools. In an industry where margins are tight and administrative burden is heavy, every minute and every dollar counts.
+              We believe veterinary practices deserve better tools. In an industry where administrative burdens are heavy and distractions are constant, every minute reclaimed allows providers to focus more on delivering exceptional care to clients and their patients.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              VetLedger is built by technologists who understand the unique challenges of veterinary medicine. Our mission is to empower practices with AI-driven automation that reduces complexity, surfaces insights, and lets you focus on what matters most—caring for animals.
+              VetLedger is built by technologists who understand the unique challenges facing veterinary practice managers and owners. Our mission is to empower practices with AI-driven automation that reduces complexity, surfaces insights, and lets you focus on what matters most — caring for animals.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From margin optimization to workflow automation, we're building the future of veterinary practice management—one intelligent feature at a time.
+              From margin optimization to workflow automation, we're building the future of veterinary practice management — one intelligent feature at a time.
             </p>
           </div>
 
