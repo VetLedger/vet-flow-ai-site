@@ -1,4 +1,4 @@
-import vetledgerLogo from "@/assets/vetledger-logo.png";
+import { VetLedgerLogo } from "@/components/VetLedgerLogo";
 
 export const Footer = () => {
   return (
@@ -6,11 +6,7 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img 
-              src={vetledgerLogo} 
-              alt="VetLedger logo" 
-              className="w-10 h-10 object-contain"
-            />
+            <VetLedgerLogo className="w-10 h-10 text-white" />
             <span className="text-sm text-white/80">
               © {new Date().getFullYear()} VetLedger. All rights reserved.
             </span>

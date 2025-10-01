@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import vetledgerLogo from "@/assets/vetledger-logo.png";
+import { VetLedgerLogo } from "@/components/VetLedgerLogo";
 
 interface HeaderProps {
   onCTAClick: () => void;
@@ -36,11 +36,7 @@ export const Header = ({ onCTAClick }: HeaderProps) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <img 
-              src={vetledgerLogo} 
-              alt="VetLedger logo" 
-              className="w-10 h-10 object-contain"
-            />
+            <VetLedgerLogo className="w-10 h-10 text-primary" />
             <span className="text-xl font-bold text-foreground font-serif">
               VetLedger
             </span>
