@@ -31,7 +31,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to VetLedger
     const emailResponse = await resend.emails.send({
       from: "VetLedger Contact Form <onboarding@resend.dev>",
-      to: ["j.chatterley@vetledger.com"],
+      to: ["info@vetledger.com"],
       reply_to: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `

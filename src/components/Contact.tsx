@@ -151,11 +151,11 @@ export const Contact = () => {
             <div className="mt-8 pt-8 border-t border-border text-center">
               <p className="text-muted-foreground mb-2">Or reach us directly at:</p>
               <a 
-                href="mailto:j.chatterley@vetledger.com" 
+                href="mailto:info@vetledger.com" 
                 className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors"
               >
                 <Mail className="mr-2 h-5 w-5" />
-                j.chatterley@vetledger.com
+                info@vetledger.com
               </a>
             </div>
           </div>
