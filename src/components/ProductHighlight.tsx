@@ -32,7 +32,7 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
     {
       icon: TrendingUp,
       title: "Real-Time Tracking",
-      description: "Monitor margins across all services and inventory in real-time"
+      description: "Monitor pricing across all services and inventory in real-time"
     },
     {
       icon: DollarSign,
@@ -47,7 +47,7 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
     {
       icon: Zap,
       title: "Automated Alerts",
-      description: "Get notified when margins need attention"
+      description: "Get notified when pricing needs attention"
     }
   ];
 
@@ -60,10 +60,10 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-16 max-w-3xl mx-auto ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Automated Margin Optimization
+            Automated Pricing Optimization
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Our first product helps you automatically track and optimize margins across your products and services—giving you insights to run smarter, leaner, and more profitable practices.
+            Our first product helps you automatically track and optimize pricing across your products and services—giving you insights to run smarter, leaner, and more profitable practices.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
           <div className="rounded-2xl overflow-hidden shadow-hover border border-border">
             <img 
               src={dashboardMockup} 
-              alt="VetLedger dashboard showing margin optimization analytics and insights" 
+              alt="VetLedger dashboard showing pricing optimization analytics and insights" 
               className="w-full h-auto"
             />
           </div>

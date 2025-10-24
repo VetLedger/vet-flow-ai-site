@@ -44,7 +44,7 @@ export const About = () => {
               VetLedger is built by technologists who understand the unique challenges facing veterinary practice managers and owners. Our mission is to empower practices with AI-driven automation that reduces complexity, surfaces insights, and lets you focus on what matters most — caring for animals.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From margin optimization to workflow automation, we're building the future of veterinary practice management — one intelligent feature at a time.
+              From pricing optimization to workflow automation, we're building the future of veterinary practice management — one intelligent feature at a time.
             </p>
           </div>
 

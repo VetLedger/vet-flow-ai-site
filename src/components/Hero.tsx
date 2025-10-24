@@ -26,7 +26,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto font-sans">
-            AI-powered automation to streamline your clinic and optimize your margins.
+            AI-powered automation to streamline and optimize your clinic.
           </p>
           
           <div className="pt-4">
@@ -36,7 +36,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
               onClick={onCTAClick}
               className="group"
             >
-              Join the Margin Optimization Beta
+              Join the Pricing Optimization Beta
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
