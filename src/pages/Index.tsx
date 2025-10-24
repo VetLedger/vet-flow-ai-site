@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
+import { TeamMembers } from "@/components/TeamMembers";
 import { ProductHighlight } from "@/components/ProductHighlight";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
@@ -18,6 +19,7 @@ const Index = () => {
       <Header onCTAClick={scrollToContact} />
       <Hero onCTAClick={scrollToContact} />
       <About />
+      <TeamMembers />
       <ProductHighlight onCTAClick={scrollToContact} />
       <Contact />
       <Footer />
