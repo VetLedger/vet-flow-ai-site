@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Base path for deployment
+  // GitHub Pages: Use '/vet-flow-ai-site/' for repo site or '/' for custom domain
+  base: '/',
   server: {
     host: "::",
     port: 8080,
