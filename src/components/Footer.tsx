@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import vetledgerLogo from "@/assets/vetledger-logo.png";
 
 export const Footer = () => {
@@ -13,18 +14,18 @@ export const Footer = () => {
           </div>
 
           <div className="flex gap-6">
-            <a 
-              href="#privacy" 
+            <Link
+              to="/privacy"
               className="text-sm text-white/80 hover:text-white transition-colors"
             >
               Privacy Policy
-            </a>
-            <a 
-              href="#terms" 
+            </Link>
+            <Link
+              to="/terms"
               className="text-sm text-white/80 hover:text-white transition-colors"
             >
               Terms of Service
-            </a>
+            </Link>
           </div>
         </div>
       </div>
