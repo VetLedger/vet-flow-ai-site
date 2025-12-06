@@ -55,9 +55,9 @@ const handler = async (req: Request): Promise<Response> => {
         },
       }
     );
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error in send-contact-email function:", error);
-    
+
     if (error instanceof z.ZodError) {
       return new Response(
         JSON.stringify({ error: "Invalid input data", details: error.errors }),
@@ -68,8 +68,9 @@ const handler = async (req: Request): Promise<Response> => {
       );
     }
 
+    const errorMessage = error instanceof Error ? error.message : "Failed to send email";
     return new Response(
-      JSON.stringify({ error: error.message || "Failed to send email" }),
+      JSON.stringify({ error: errorMessage }),
       {
         status: 500,
         headers: { "Content-Type": "application/json", ...corsHeaders },
