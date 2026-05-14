@@ -36,7 +36,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
               onClick={onCTAClick}
               className="group"
             >
-              Join the Waitlist
+              See How VetLedger Works
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
