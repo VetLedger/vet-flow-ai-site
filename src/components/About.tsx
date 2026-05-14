@@ -31,20 +31,20 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Why VetLedger?
+            Pricing, managed like the profit lever it is.
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className={`space-y-6 ${isVisible ? 'animate-slide-in-left' : 'opacity-0'}`}>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We believe veterinary practices deserve better tools. In an industry where administrative burdens are heavy and distractions are constant, every minute reclaimed allows providers to focus more on delivering exceptional care to clients and their patients.
+              Pricing affects profit in every veterinary practice, but most owners don't manage it as a recurring discipline. The work is uncomfortable, time-consuming, and politically sensitive — so it gets reduced to broad annual increases, scattered spreadsheets, and gut-feel decisions.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              VetLedger is built by technologists who understand the unique challenges facing veterinary practice managers and owners. Our mission is to empower practices with AI-driven automation that reduces complexity, surfaces insights, and lets you focus on what matters most — caring for animals.
+              VetLedger turns pricing from an occasional, emotional decision into a repeatable management process: set a strategy, surface the opportunities that matter most, approve changes with clear rationale, and monitor the result.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From pricing optimization to workflow automation, we're building the future of veterinary practice management — one intelligent feature at a time.
+              Built for independent and small multi-location practices on Pulse and ezyVet, VetLedger is practical, operator-friendly, and designed to fit how a busy practice actually runs — not another spreadsheet project.
             </p>
           </div>
 
