@@ -41,6 +41,10 @@ export const Header = ({ onCTAClick }: HeaderProps) => {
     }
   };
 
+  const handleTeamClick = () => {
+    navigate("/team");
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -60,16 +64,22 @@ export const Header = ({ onCTAClick }: HeaderProps) => {
 
           <nav className="hidden md:flex items-center gap-8">
             <button
-              onClick={() => handleNavigateToSection("about")}
+              onClick={() => handleNavigateToSection("solution")}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              About
+              Platform
             </button>
             <button
-              onClick={() => handleNavigateToSection("product")}
+              onClick={() => handleNavigateToSection("capabilities")}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              Product
+              What it does
+            </button>
+            <button
+              onClick={handleTeamClick}
+              className="text-foreground hover:text-primary transition-colors font-medium"
+            >
+              Team
             </button>
             <button
               onClick={() => handleNavigateToSection("contact")}
