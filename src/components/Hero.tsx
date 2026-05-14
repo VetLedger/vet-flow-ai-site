@@ -22,11 +22,11 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
       <div className="container relative z-10 mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-            Smarter Workflows for Veterinary Practices
+            Stop guessing your way through pricing.
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto font-sans">
-            AI-powered automation to streamline and optimize your clinic.
+            VetLedger gives veterinary practices a practical system for deciding what to change, why it matters, and whether it worked.
           </p>
           
           <div className="pt-4">
@@ -36,7 +36,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
               onClick={onCTAClick}
               className="group"
             >
-              Join the Pricing Optimization Beta
+              Join the Waitlist
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>

@@ -31,23 +31,23 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
   const features = [
     {
       icon: TrendingUp,
-      title: "Real-Time Tracking",
-      description: "Monitor pricing across all services and inventory in real-time"
+      title: "Prioritized Opportunities",
+      description: "Focus on the pricing changes most worth reviewing first — not every line item."
     },
     {
       icon: DollarSign,
-      title: "Smart Optimization",
-      description: "AI-powered recommendations to improve profitability"
+      title: "Explainable Recommendations",
+      description: "Every recommendation comes with clear rationale tied to your strategy and performance."
     },
     {
       icon: BarChart3,
-      title: "Actionable Insights",
-      description: "Clear analytics that drive better business decisions"
+      title: "Review & Approval Workflow",
+      description: "Accept, edit, defer, or reject changes with notes and decision history retained."
     },
     {
       icon: Zap,
-      title: "Automated Alerts",
-      description: "Get notified when pricing needs attention"
+      title: "Post-Change Monitoring",
+      description: "Track revenue, margin, volume, and invoice impact after pricing decisions go live."
     }
   ];
 
@@ -60,10 +60,10 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-16 max-w-3xl mx-auto ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Automated Pricing Optimization
+            A Pricing Management Platform built for veterinary practices
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Our first product helps you automatically track and optimize pricing across your products and services—giving you insights to run smarter, leaner, and more profitable practices.
+            Define your pricing strategy, see the opportunities that matter most, understand the rationale behind each recommendation, and monitor what actually happens after changes are made — all in one repeatable workflow.
           </p>
         </div>
 
@@ -103,7 +103,7 @@ export const ProductHighlight = ({ onCTAClick }: ProductHighlightProps) => {
             size="lg"
             onClick={onCTAClick}
           >
-            Sign Up for Beta Access
+            Join the Waitlist
           </Button>
         </div>
       </div>
