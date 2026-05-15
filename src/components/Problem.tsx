@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { AlertTriangle, FileSpreadsheet, CalendarX } from "lucide-react";
+import { AlertTriangle, FileSpreadsheet, CalendarX, BarChart3 } from "lucide-react";
 
 export const Problem = () => {
   const [isVisible, setIsVisible] = useState(false);
