@@ -30,6 +30,11 @@ export const Problem = () => {
       title: "Gut-feel decisions",
       description: "Without a clear process, pricing becomes political — uncomfortable conversations get deferred and margin slips.",
     },
+    {
+      icon: BarChart3,
+      title: "Generic industry benchmarks",
+      description: "Benchmarks ignore your practice's unique strategy, clientele, and product mix — making them unrelatable and often misleading at the individual practice level.",
+    },
   ];
 
   return (
