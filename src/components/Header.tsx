@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import vetledgerLogo from "@/assets/vetledger-logo.png";
+import vetledgerLogo from "@/assets/vetledger-logo.svg";
 
 interface HeaderProps {
   onCTAClick: () => void;
