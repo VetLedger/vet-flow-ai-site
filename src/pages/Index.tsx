@@ -39,8 +39,8 @@ const Index = () => {
       <Solution />
       <Capabilities />
       <WhyVet />
-      <Partners onCTAClick={scrollToContact} />
       <Contact />
+      <Partners onCTAClick={scrollToContact} />
       <Footer />
     </div>
   );
