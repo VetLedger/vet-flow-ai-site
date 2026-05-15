@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import vetledgerLogo from "@/assets/vetledger-logo.png";
+import vetledgerLogo from "@/assets/vetledger-logo.svg";
 
 export const Footer = () => {
   return (
