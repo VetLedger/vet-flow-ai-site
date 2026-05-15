@@ -53,7 +53,7 @@ export const Problem = () => {
           </p>
         </div>
 
-        <div className={`grid md:grid-cols-3 gap-8 max-w-5xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
+        <div className={`grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
           {pains.map((pain) => (
             <div
               key={pain.title}
