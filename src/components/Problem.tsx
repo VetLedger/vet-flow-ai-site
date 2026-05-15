@@ -49,7 +49,7 @@ export const Problem = () => {
             Pricing is too important to manage with guesswork.
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Most veterinary practices rely on annual blanket increases, scattered spreadsheets, and gut-feel decisions — leaving real revenue and margin on the table every month.
+            Most veterinary practices rely on overly simple or unmanageably complex solutions, leaving real revenue and margin on the table every month.
           </p>
         </div>
 
