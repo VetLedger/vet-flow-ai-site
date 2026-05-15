@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Target, ListChecks, MessageSquareText, CheckCircle2, LineChart } from "lucide-react";
+import { Target, ListChecks, CheckCircle2, LineChart } from "lucide-react";
 
 export const Solution = () => {
   const [isVisible, setIsVisible] = useState(false);
