@@ -36,7 +36,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
               onClick={onCTAClick}
               className="group"
             >
-              See How VetLedger Works
+              Get Early Access
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
