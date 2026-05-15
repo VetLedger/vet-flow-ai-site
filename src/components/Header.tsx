@@ -57,7 +57,7 @@ export const Header = ({ onCTAClick }: HeaderProps) => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3 cursor-pointer" onClick={handleLogoClick}>
             <img src={vetledgerLogo} alt="VetLedger Logo" className="w-10 h-10" />
-            <span className="text-xl font-bold text-foreground font-serif">
+            <span className="text-3xl font-bold text-foreground font-serif leading-none">
               VetLedger
             </span>
           </div>
