@@ -37,17 +37,7 @@ export const Solution = () => {
           </p>
         </div>
 
-        {/* Placeholder for product workflow diagram / screenshot */}
-        <div className={`max-w-5xl mx-auto mb-16 ${isVisible ? "animate-scale-in" : "opacity-0"}`}>
-          <div className="rounded-2xl border-2 border-dashed border-border bg-card/50 aspect-[16/7] flex items-center justify-center">
-            <div className="text-center px-6">
-              <p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Visual placeholder</p>
-              <p className="text-foreground font-medium">Workflow diagram or product screenshot of the pricing management process.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className={`grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
+        <div className={`grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
           {steps.map((step, i) => (
             <div key={step.title} className="bg-card rounded-xl p-6 shadow-soft hover:shadow-medium transition-shadow">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
