@@ -16,8 +16,7 @@ export const Solution = () => {
 
   const steps = [
     { icon: Target, title: "Strategy", description: "Define how your practice wants to price — and what you're protecting." },
-    { icon: ListChecks, title: "Prioritized recommendations", description: "See the changes most worth reviewing first, not every line item." },
-    { icon: MessageSquareText, title: "Rationale", description: "Every recommendation comes with a clear reason tied to your strategy." },
+    { icon: ListChecks, title: "Prioritized recommendations", description: "See the changes most worth reviewing first — each with a clear rationale tied to your strategy." },
     { icon: CheckCircle2, title: "Approval", description: "Accept, edit, defer, or reject — with notes and a full decision history." },
     { icon: LineChart, title: "Monitoring", description: "Track revenue, margin, volume, and invoice impact after changes go live." },
   ];
