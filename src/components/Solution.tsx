@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Target, ListChecks, MessageSquareText, CheckCircle2, LineChart } from "lucide-react";
+import { Target, ListChecks, CheckCircle2, LineChart } from "lucide-react";
 
 export const Solution = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,8 +16,7 @@ export const Solution = () => {
 
   const steps = [
     { icon: Target, title: "Strategy", description: "Define how your practice wants to price — and what you're protecting." },
-    { icon: ListChecks, title: "Prioritized recommendations", description: "See the changes most worth reviewing first, not every line item." },
-    { icon: MessageSquareText, title: "Rationale", description: "Every recommendation comes with a clear reason tied to your strategy." },
+    { icon: ListChecks, title: "Prioritized recommendations", description: "See the changes most worth reviewing first — each with a clear rationale tied to your strategy." },
     { icon: CheckCircle2, title: "Approval", description: "Accept, edit, defer, or reject — with notes and a full decision history." },
     { icon: LineChart, title: "Monitoring", description: "Track revenue, margin, volume, and invoice impact after changes go live." },
   ];
@@ -38,17 +37,7 @@ export const Solution = () => {
           </p>
         </div>
 
-        {/* Placeholder for product workflow diagram / screenshot */}
-        <div className={`max-w-5xl mx-auto mb-16 ${isVisible ? "animate-scale-in" : "opacity-0"}`}>
-          <div className="rounded-2xl border-2 border-dashed border-border bg-card/50 aspect-[16/7] flex items-center justify-center">
-            <div className="text-center px-6">
-              <p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Visual placeholder</p>
-              <p className="text-foreground font-medium">Workflow diagram or product screenshot of the pricing management process.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className={`grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
+        <div className={`grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
           {steps.map((step, i) => (
             <div key={step.title} className="bg-card rounded-xl p-6 shadow-soft hover:shadow-medium transition-shadow">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">

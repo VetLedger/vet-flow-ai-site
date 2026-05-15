@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { AlertTriangle, FileSpreadsheet, CalendarX } from "lucide-react";
+import { AlertTriangle, FileSpreadsheet, CalendarX, BarChart3 } from "lucide-react";
 
 export const Problem = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,6 +30,11 @@ export const Problem = () => {
       title: "Gut-feel decisions",
       description: "Without a clear process, pricing becomes political — uncomfortable conversations get deferred and margin slips.",
     },
+    {
+      icon: BarChart3,
+      title: "Generic industry benchmarks",
+      description: "Benchmarks ignore your practice's unique strategy, clientele, and product mix — making them unrelatable and often misleading at the individual practice level.",
+    },
   ];
 
   return (
@@ -44,11 +49,11 @@ export const Problem = () => {
             Pricing is too important to manage with guesswork.
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Most veterinary practices rely on annual blanket increases, scattered spreadsheets, and gut-feel decisions — leaving real revenue and margin on the table every month.
+            Most veterinary practices rely on overly simple or unmanageably complex solutions, leaving real revenue and margin on the table every month.
           </p>
         </div>
 
-        <div className={`grid md:grid-cols-3 gap-8 max-w-5xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
+        <div className={`grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
           {pains.map((pain) => (
             <div
               key={pain.title}

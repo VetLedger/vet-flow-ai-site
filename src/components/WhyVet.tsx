@@ -17,8 +17,8 @@ export const WhyVet = () => {
   const points = [
     {
       icon: Stethoscope,
-      title: "Built for Pulse and ezyVet practices",
-      description: "Designed around how independent and small multi-location practices actually work day to day.",
+      title: "Built for integration with your practice management system",
+      description: "Designed to work alongside the PIMS your team already uses every day.",
     },
     {
       icon: Clock,

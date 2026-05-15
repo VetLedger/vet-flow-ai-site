@@ -17,7 +17,7 @@ export const Capabilities = () => {
   const items = [
     {
       icon: Search,
-      title: "Identify underpriced products and services",
+      title: "Identify misaligned products and services",
       description: "Surface the items where your prices have drifted out of line with cost, value, and your strategy.",
     },
     {
