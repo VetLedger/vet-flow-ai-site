@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Search, Layers, Compass, Activity } from "lucide-react";
+import productRecommendations from "@/assets/product-recommendations.png";
 
 export const Capabilities = () => {
   const [isVisible, setIsVisible] = useState(false);
