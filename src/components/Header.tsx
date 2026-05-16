@@ -87,8 +87,8 @@ export const Header = ({ onCTAClick }: HeaderProps) => {
             >
               Contact
             </button>
-            <Button variant="hero" size="sm" onClick={onCTAClick}>
-              Join Waitlist
+            <Button variant="default" size="sm" onClick={onCTAClick}>
+              Join the waitlist
             </Button>
           </nav>
         </div>
