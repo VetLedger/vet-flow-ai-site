@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Search, Layers, Compass, Activity } from "lucide-react";
+import productRecommendations from "@/assets/product-recommendations.png";
 
 export const Capabilities = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -68,11 +69,12 @@ export const Capabilities = () => {
 
           {/* Placeholder for product screenshot */}
           <div className={`${isVisible ? "animate-slide-in-right" : "opacity-0"}`}>
-            <div className="rounded-2xl border-2 border-dashed border-border bg-card/50 aspect-[4/5] flex items-center justify-center">
-              <div className="text-center px-6">
-                <p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Visual placeholder</p>
-                <p className="text-foreground font-medium">Product screenshot: prioritized opportunities list with rationale and impact.</p>
-              </div>
+            <div className="rounded-2xl overflow-hidden shadow-hover border border-border bg-card">
+              <img
+                src={productRecommendations}
+                alt="VetLedger pricing opportunities screen showing prioritized recommendations with rationale, projected impact, and strategy-aware adjustments"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
