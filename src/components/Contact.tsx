@@ -118,7 +118,7 @@ export const Contact = () => {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-12 max-w-2xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Join the Waitlist
+            Join the waitlist
           </h2>
           <p className="text-xl text-muted-foreground">
             Tell us a little about your practice and we'll be in touch about early access.
@@ -187,8 +187,8 @@ export const Contact = () => {
                 <Textarea id="message" name="message" placeholder="Other context you'd like us to know" value={formData.message} onChange={handleChange} className="min-h-20 rounded-lg resize-none" />
               </div>
 
-              <Button type="submit" variant="hero" size="lg" className="w-full" disabled={isSubmitting}>
-                {isSubmitting ? "Submitting..." : "Join the Waitlist"}
+              <Button type="submit" variant="default" size="lg" className="w-full" disabled={isSubmitting}>
+                {isSubmitting ? "Submitting..." : "Join the waitlist"}
                 <Send className="ml-2 h-4 w-4" />
               </Button>
             </form>
