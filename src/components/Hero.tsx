@@ -22,7 +22,7 @@ export const Hero = ({ onCTAClick }: HeroProps) => {
       <div className="container relative z-10 mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-            Stop guessing your way through pricing.
+            Don't guess your way through pricing.
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto font-sans">
