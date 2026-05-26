@@ -28,7 +28,7 @@ export const Problem = () => {
     {
       icon: AlertTriangle,
       title: "Gut-feel decisions",
-      description: "Without a clear process, pricing becomes political — uncomfortable conversations get deferred and margin slips.",
+      description: "Without a clear process, pricing becomes political. Uncomfortable conversations get deferred and margin slips.",
     },
     {
       icon: BarChart3,
