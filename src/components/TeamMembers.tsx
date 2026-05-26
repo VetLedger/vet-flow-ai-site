@@ -63,7 +63,7 @@ export const TeamMembers = () => {
                   <img 
                     src={member.image} 
                     alt={`${member.name} - ${member.title}`}
-                    className="w-full h-full object-cover"
+                    className={`w-full h-full object-cover ${member.name === "Jonson Chatterley" ? "grayscale" : ""}`}
                   />
                 </div>
                 
