@@ -18,7 +18,7 @@ export const Problem = () => {
     {
       icon: CalendarX,
       title: "Annual blanket increases",
-      description: "A single across-the-board percentage hides which prices were actually wrong — and which were already correct.",
+      description: "A single across-the-board increase treats every price the same, hiding which items are underpriced, which are sensitive, and which are already working.",
     },
     {
       icon: FileSpreadsheet,
