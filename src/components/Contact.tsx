@@ -188,7 +188,7 @@ export const Contact = () => {
               </div>
 
               <Button type="submit" variant="default" size="lg" className="w-full" disabled={isSubmitting}>
-                {isSubmitting ? "Submitting..." : "Join the waitlist"}
+                {isSubmitting ? "Submitting..." : "Connect with us"}
                 <Send className="ml-2 h-4 w-4" />
               </Button>
             </form>
