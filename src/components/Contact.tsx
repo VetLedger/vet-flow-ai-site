@@ -82,7 +82,7 @@ export const Contact = () => {
         throw new Error(error.error || "Failed to send message");
       }
 
-      toast.success("You're on the waitlist! We'll be in touch shortly.");
+      toast.success("Thanks for reaching out! We'll be in touch shortly.");
       setFormData({
         name: "",
         email: "",
