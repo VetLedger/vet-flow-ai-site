@@ -118,7 +118,7 @@ export const Contact = () => {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-12 max-w-2xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Join the waitlist
+            Connect with us
           </h2>
           <p className="text-xl text-muted-foreground">
             Tell us a little about your practice and we'll be in touch about early access.
