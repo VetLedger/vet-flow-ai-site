@@ -82,7 +82,7 @@ export const Contact = () => {
         throw new Error(error.error || "Failed to send message");
       }
 
-      toast.success("You're on the waitlist! We'll be in touch shortly.");
+      toast.success("Thanks for reaching out! We'll be in touch shortly.");
       setFormData({
         name: "",
         email: "",
@@ -118,7 +118,7 @@ export const Contact = () => {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-12 max-w-2xl mx-auto ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Join the waitlist
+            Connect with us
           </h2>
           <p className="text-xl text-muted-foreground">
             Tell us a little about your practice and we'll be in touch about early access.
@@ -188,7 +188,7 @@ export const Contact = () => {
               </div>
 
               <Button type="submit" variant="default" size="lg" className="w-full" disabled={isSubmitting}>
-                {isSubmitting ? "Submitting..." : "Join the waitlist"}
+                {isSubmitting ? "Submitting..." : "Connect with us"}
                 <Send className="ml-2 h-4 w-4" />
               </Button>
             </form>
